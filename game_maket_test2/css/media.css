@@ -1,0 +1,724 @@
+/* Адаптивность */
+@media screen and (max-width: 1360px) {
+	/* Блок1 */
+	.give-help-img {
+		top: 10px;
+	}
+	.give-help-img img{
+		width: 565px;
+		height: 720px;
+	}
+	/* Блок2 */
+	.free-img {
+		left: 5px;
+		top: -5px;
+	}
+	.free-img img {
+		width: 365px;
+		height: 780px;
+	}
+	/* Блок тест */
+	.test-img  img{
+		width: 500px;
+		height: 700px;
+	}
+	.test-img {
+		top: 2950px;
+		left: 750px;
+	}
+	/*Блок Продукция*/
+	.product-img1 img {
+		width: 280px;
+		height: 455px;
+	}
+	.product-img2 img {
+		width: 300px;
+		height: 400px;
+		top: 80px;
+	}
+	.product-img3 img {
+		width: 290px;
+		height: 450px;
+		top: -10px;
+	}
+	/* Блок лого*/
+	.fons-img {
+		top: -280px;
+		left: 700px;
+	}
+	.fons-img img {
+		width: 450px;
+		height: 700px;
+	}
+}
+@media screen and (max-width: 1255px) {
+	.give-help-img {
+		left: 650px;
+	}
+	/* Блок тест */
+	.block-test .title3 {
+		font-size: 45px;
+	}
+	.block-test .test-img  img{
+		width: 450px;
+		height: 600px;
+	}
+	.block-test .test-img {
+		top: 3000px;
+		left: 650px;
+	}
+}
+/*Extra large devices (large desktops, 1200px)*/
+@media screen and (max-width: 1200px) {
+	/* Шапка */
+	.container {
+		width: 90%;
+	}
+	header .container {
+		justify-content: space-around;
+	}
+	.logo img {
+		width: 115px;
+		height: 50px;
+	}
+	.nav {
+		margin-left: 0px;
+	}
+	.nav a {
+		margin-left: 20px;
+		font-size: 25px;
+	}
+	.btn-login {
+		padding-left: 30px;
+	}
+	.btn1 {
+		width: 120px;
+		height: 55px;
+		font-size: 25px;
+	}
+	.btn2 {
+		width: 55px;
+		height: 55px;
+	}
+	.btn2 img {
+		width: 25px;
+		height: 25px;
+	}
+	/*Блок Получение информации 1*/
+	.title1 {
+		font-size: 45px;
+	}
+	.btn-blok1 {
+		margin: 45px 0 0 0;
+	}
+	.btn3 {
+		width: 400px;
+		height: 65px;
+		font-size: 25px;
+	}
+	.give-help-img {
+		top: 50px;
+		left: 580px;
+	}
+	.give-help-img img{
+		width: 500px;
+		height: 620px;
+	}
+	/*Блок возможности слайдер*/
+	#carouselExampleControls {
+		width: 100%;
+		height: 400px;
+	}
+	#carouselExampleControls a.carousel-control-prev span {
+		width: 10px;
+		height: 10px;
+		border: 30px solid transparent;
+		border-right-color: #6ee2fc;
+		border-left: 0;
+	}
+	#carouselExampleControls a.carousel-control-next span {
+		width: 10px;
+		height: 10px;
+		border: 30px solid transparent;
+		border-left-color: #6ee2fc;
+		border-right: 0;
+	}
+	.wrapper-opportunities {
+		text-align: center;
+		margin: 20px 0 40px 0;
+	}
+	.opportunities2 {
+		display: block;
+	}
+	.opportunities1{
+		display: none;
+	}
+	/*Блок Получение информации 2*/
+	.btn-blok2 {
+		margin: 45px 0 0 90px;
+	}
+	.btn4 {
+		width: 400px;
+		height: 65px;
+		font-size: 25px;
+	}
+	.free-img {
+		left: 5px;
+		top: 10px;
+	}
+	.free-img img {
+		width: 365px;
+		height: 680px;
+	}
+	/*Игры*/
+	.wrapper-game li {
+		display: inline-block;
+		width: 200px;
+		margin: 20px 30px;
+	}
+	.wrapper-game li img{
+		width: 200px;
+		height: 100px;
+	}
+	/*Блок Пройдите тест*/
+	.block-test {
+		padding-top: 60px;
+	}
+	.wrapper-test {
+		width: 60%;
+		margin: 0 auto;
+		padding-right: 0px;
+	}
+	.block-test .title3 {
+		font-size: 38px;
+	}
+	.btn5 {
+		width: 400px;
+		height: 65px;
+		font-size: 25px;
+	}
+	.block-test p {
+		font-size: 18px;
+	}
+	.btn-blok3 {
+		margin-top: 55px;
+	}
+	.test-progress {
+		width: 150px;
+		height: 150px;
+		margin: 30px auto 0 auto;
+		border: 10px solid #46efab;
+	}
+	.test-progress p {
+		padding-top: 40px;
+		font-size: 38px;
+	}
+	.test-img {
+		display: none;
+	}
+	/*Продукция*/
+	.product-img1 img {
+		width: 220px;
+		height: 385px;
+		top: 50px;
+		right: 200px;
+	}
+	.product-img2 img {
+		width: 250px;
+		height: 360px;
+		top: 100px;
+		right: 209px;
+	}
+	.product-img3 img {
+		width: 290px;
+		height: 450px;
+		top: 70px;
+		right: 170px;
+	}
+	/*Коментарии*/
+	.comments {
+		margin: 0 140px;
+	}
+	.comment {
+		padding-right: 50px;
+	}
+	.comment-text p {
+		font-size: 12px;
+	}
+	.comment-text img {
+		width: 100px;
+		height: 40px;
+	}
+	.user-icon img {
+		width: 120px;
+		height: 120px;
+	}
+	/*Большое лого*/
+	.fons-img {
+		top: -200px;
+		left: 650px;
+	}
+	.fons-img img {
+		width: 370px;
+		height: 600px;
+	}
+	/*Блок с информацией*/
+	.wrapper-info p {
+		font-size: 22px;
+	}
+	/* Футер */
+	footer .container {
+		justify-content: space-around;
+	}
+	.socials {
+		margin-right: 40px;
+	}
+	.logo-footer img {
+		width: 150px;
+		height: 70px;
+	}
+	.tw,
+	.fb,
+	.inst {
+		width: 70px;
+		height: 70px;
+	}
+	.socials a img {
+		width: 70px;
+		height: 70px;
+	}
+	.footer-text p {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 1085px) {
+	.give-help-img {
+		top: 50px;
+		left: 515px;
+	}
+	.give-help-img img{
+		width: 480px;
+		height: 600px;
+	}
+}
+@media screen and (max-width: 1045px) {
+	/*Большое лого*/
+	.fons-img {
+		top: -150px;
+		left: 630px;
+	}
+	.fons-img img {
+		width: 300px;
+		height: 510px;
+	}
+}
+@media screen and (max-width: 1020px) {
+	/*Коментарии*/
+	.comments {
+		margin: 0 80px;
+	}
+}
+/*Large devices (desktops, 992px)*/
+@media screen and (max-width: 992px) {
+	/* Шапка */
+	.nav a {
+		font-size: 23px;
+	}
+	/*Блок Получение информации 1*/
+	.block1,
+	.block2 {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+	.title1 {
+		font-size: 35px;
+	}
+	.btn-blok1 {
+		margin: 30px 0 0 0;
+	}
+	.btn3 {
+		width: 350px;
+		height: 50px;
+		font-size: 20px;
+	}
+	.give-help-text {
+		padding-left: 50px;
+	}
+	.give-help-img {
+		top: -25px;
+		left: 480px;
+	}
+	.give-help-img img{
+		width: 425px;
+		height: 520px;
+	}
+	/*Возможности*/
+	.wrapper-opportunities {
+		text-align: center;
+		margin: 20px 80px 40px 80px;
+	}
+	.opportunities-item {
+		margin-top: 50px;
+	}
+	.opportunities-item img{
+		width: 150px;
+		height: 150px;
+	}
+	.title2 {
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	.opportunities-item p {
+		padding-top: 15px;
+		font-size: 30px;
+	}
+	/*Блок Получение информации 2*/
+	.btn-blok2 {
+		margin: 35px 0 0 75px;
+	}
+	.free-text {
+		margin-right: 50px;
+	}
+	.btn4 {
+		width: 350px;
+		height: 50px;
+		font-size: 20px;
+	}
+	.free-img {
+		left: 10px;
+		top: -2px;
+	}
+	.free-img img {
+		width: 265px;
+		height: 480px;
+	}
+	/*Блок Пройдите тест*/
+	.block-test .title3 {
+		font-size: 30px;
+	}
+	.block-test {
+		padding-top: 60px;
+	}
+	/*Продукция*/
+	.wrapper-products {
+		width: 95%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.product {
+		width: 200px;
+		height: 400px;
+		float: none;
+		margin-bottom: 0;
+	}
+
+	.product:last-child {
+		margin-bottom: 0;
+	}
+	.product img {
+		display: block;
+		width: 130px;
+		height: 130px;
+		margin: 0 auto;
+	}
+	.btn6-adap {
+		display: block;
+		width: 150px;
+		height: 35px;
+		margin: 10px auto;
+		background: linear-gradient( to top, #46efab, #05fecf);
+		color: #fff;
+		text-transform: uppercase;
+		font: 12px 'Montserrat', sans-serif;
+		font-weight: bold;
+		border-radius: 40px;
+	}
+	.product-img1 img,
+	.product-img2 img,
+	.product-img3 img {
+		display: none;
+	}
+	.product h4 {
+		margin: 30px 0;
+		font-size: 18px;
+	}
+	.wrapper-products p {
+		font-size: 30px;
+	}
+
+	.active-order {
+		display: none;
+	}
+	/*Коментарии*/
+	.reviews {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.comments {
+		width: 400px;
+		margin: 0 auto;
+	}
+	.comment {
+		padding-right: 50px;
+	}
+	.comment-text p {
+		font-size: 14px;
+	}
+	.comment-text img {
+		width: 50px;
+		height: 20px;
+	}
+	.user-icon img {
+		width: 90px;
+		height: 90px;
+	}
+	/*Большое лого*/
+	.wrapper-logo img {
+		width: 350px;
+		height: 150px;
+	}
+	.fons-img {
+		top: -150px;
+		left: 550px;
+	}
+	.fons-img img {
+		width: 270px;
+		height: 450px;
+	}
+	/* Блок с информацией */
+	.wrapper-info p {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 865px) {
+	/*Блок Получение информации 1*/
+	.wrapper-block1 {
+		justify-content: center;
+	}
+	.give-help-img img{
+		display: none;
+	}
+	/*Блок Получение информации 2*/
+	.block2 .container {
+		justify-content: center;
+	}
+	.free-img img {
+		display: none;
+	}
+	/*Большое лого*/
+	.fons-img img {
+		display: none;
+	}
+}
+/*Medium devices (tablets, 768px)*/
+@media screen and (max-width: 768px) {
+	/* Появление адаптивной навигации*/
+	.container {
+		justify-content: space-between;
+		flex-shrink: 1;
+	}
+	.nav {
+		padding: 0;
+		margin-left: 0px;
+	}
+	.nav a {
+		display: none;
+	}
+	.nav a.icon {
+		display: block;
+		display: block;
+	}
+	.nav .icon{
+		display: block;
+	}
+	header .nav.pop-up-menu {
+		height: 200px;
+	}
+	.nav.pop-up-menu {
+		flex-direction: column;
+		position: relative;
+		top: 90px;
+		left: -115px;
+	}
+	.nav.pop-up-menu a.icon{
+		position: absolute;
+		top: -80px;
+		right: -60px;
+	}
+	.nav.pop-up-menu a {
+		display: block;
+		padding-bottom: 10px;
+	}
+	/*Блок Получение информации 1*/
+	.block1,
+	.block2 {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.title1 {
+		font-size: 25px;
+	}
+	.btn-blok1 {
+		margin: 30px 0 0 0;
+	}
+	.btn3 {
+		width: 200px;
+		height: 40px;
+		font-size: 16px;
+	}
+	.give-help-text {
+		padding-left: 50px;
+	}
+	/*Блок Получение информации 2*/
+	.btn-blok2 {
+		margin: 35px 0 0 80px;
+	}
+	.free-text {
+		margin-right: 0px;
+	}
+	.btn4 {
+		width: 200px;
+		height: 40px;
+		font-size: 16px;
+	}
+	/*Блок Пройдите тест*/
+	.block-test .title3 {
+		font-size: 25px;
+	}
+	.btn5 {
+		width: 400px;
+		height: 65px;
+		font-size: 18px;
+	}
+	.block-test p {
+		font-size: 14px;
+	}
+	.btn-blok3 {
+		margin-top: 20px;
+	}
+	.btn5 {
+		width: 200px;
+		height: 40px;
+		font-size: 16px;
+	}
+	.test-progress {
+		width: 90px;
+		height: 90px;
+	}
+	.test-progress p {
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	/*Продукция*/
+	.product {
+		width: 150px;
+		height: 300px;
+		float: none;
+		margin-bottom: 0;
+	}
+	.product img {
+		display: block;
+		width: 90px;
+		height: 90px;
+		margin: 0 auto;
+	}
+	.btn6-adap {
+		display: block;
+		width: 100px;
+		height: 35px;
+		margin: 10px auto;
+		font: 8px 'Montserrat', sans-serif;
+		font-weight: bold;
+	}
+	.product-img1 img,
+	.product-img2 img,
+	.product-img3 img {
+		display: none;
+	}
+	.product h4 {
+		margin: 30px 0;
+		font-size: 12px;
+	}
+	.wrapper-products p {
+		font-size: 18px;
+	}
+	/* Блок с информацией */
+	.info {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.wrapper-info p {
+		font-size: 12px;
+	}
+	/* Футер */
+	footer .container {
+		justify-content: space-around;
+	}
+	.socials {
+		margin-left: 40px;
+	}
+	.logo-footer img {
+		width: 90px;
+		height: 50px;
+	}
+	.tw,
+	.fb,
+	.inst {
+		width: 50px;
+		height: 50px;
+	}
+	.socials a img {
+		width: 50px;
+		height: 50px;
+	}
+	.footer-text p {
+		font-size: 12px;
+	}
+
+}
+/*Small devices (landscape phones, 576px)*/
+@media screen and (max-width: 576px) {
+	header .container {
+		justify-content: space-around;
+	}
+	.logo img {
+		width: 80px;
+		height: 40px;
+	}
+	.nav {
+		margin-left: 0px;
+	}
+	.nav a {
+		margin-left: 20px;
+		font-size: 25px;
+	}
+	.btn-login {
+		padding-left: 30px;
+	}
+	.btn1 {
+		width: 120px;
+		height: 40px;
+		font-size: 18px;
+	}
+	.btn2 {
+		width: 40px;
+		height: 40px;
+	}
+	.btn2 img {
+		width: 25px;
+		height: 25px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+
+
+
+
+
