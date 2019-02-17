@@ -125,6 +125,10 @@
 		height: 620px;
 	}
 	/*Блок возможности слайдер*/
+	.opportunities2 .wrapper-opportunities {
+		width: 90%;
+		margin: 0 auto;		
+	}
 	#carouselExampleControls {
 		width: 100%;
 		height: 400px;
@@ -185,7 +189,7 @@
 		padding-top: 60px;
 	}
 	.wrapper-test {
-		width: 60%;
+		width: 80%;
 		margin: 0 auto;
 		padding-right: 0px;
 	}
@@ -522,6 +526,9 @@
 		justify-content: space-between;
 		flex-shrink: 1;
 	}
+	nav {
+		width: 50px;
+	}
 	.nav {
 		padding: 0;
 		margin-left: 0px;
@@ -530,7 +537,6 @@
 		display: none;
 	}
 	.nav a.icon {
-		display: block;
 		display: block;
 	}
 	.nav .icon{
@@ -548,7 +554,7 @@
 	.nav.pop-up-menu a.icon{
 		position: absolute;
 		top: -80px;
-		right: -60px;
+		right: -20px;
 	}
 	.nav.pop-up-menu a {
 		display: block;
@@ -679,10 +685,10 @@
 	.footer-text p {
 		font-size: 12px;
 	}
-
 }
 /*Small devices (landscape phones, 576px)*/
 @media screen and (max-width: 576px) {
+	/* Шапка */
 	header .container {
 		justify-content: space-around;
 	}
@@ -714,6 +720,157 @@
 		height: 25px;
 		padding-right: 10px;
 		padding-bottom: 10px;
+	}
+	header .nav.pop-up-menu {
+		height: 200px;
+	}
+	.nav.pop-up-menu {
+		flex-direction: column;
+		position: relative;
+		top: 90px;
+		left: -100px;
+	}
+	.nav.pop-up-menu a.icon{
+		position: absolute;
+		top: -85px;
+		right: -10px;
+	}
+	.nav.pop-up-menu a {
+		display: block;
+		padding-bottom: 10px;
+	}
+	/*Блок Получение информации 1*/
+	.title1 {
+		font-size: 20px;
+	}
+	.give-help-text {
+		padding-left: 0px;
+	}
+	.btn-blok1 {
+		margin: 20px 0 0 0;
+	}
+	/*Блок возможности слайдер*/
+	#carouselExampleControls a.carousel-control-prev span {
+		width: 10px;
+		height: 10px;
+		border: 20px solid transparent;
+		border-right-color: #6ee2fc;
+		border-left: 0;
+	}
+	#carouselExampleControls a.carousel-control-next span {
+		width: 10px;
+		height: 10px;
+		border: 20px solid transparent;
+		border-left-color: #6ee2fc;
+		border-right: 0;
+	}
+	/*Блок Получение информации 2*/
+	.btn-blok2 {
+		margin: 20px 0 0 0;
+		text-align: center;
+	}
+	/*Блок Пройдите тест*/
+	.block-test .title3 {
+		font-size: 16px;
+	}
+	.title-p p {
+		font-size: 8px;
+	}
+	/*Продукция*/
+	.product {
+		width: 90px;
+		height: 210px;
+		float: none;
+		margin-bottom: 0;
+		border-radius: 20px;
+	}
+	.product img {
+		display: block;
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+	}
+	.btn6-adap {
+		display: block;
+		width: 50px;
+		height: 20px;
+		margin: 5px auto;
+		font: 6px 'Montserrat', sans-serif;
+		font-weight: bold;
+	}
+	.btn6-adap span {
+		display: none;
+	}
+	.product-img1 img,
+	.product-img2 img,
+	.product-img3 img {
+		display: none;
+	}
+	.product h4 {
+		margin: 20px 0;
+		font-size: 10px;
+	}
+	.wrapper-products p {
+		font-size: 14px;
+	}
+	/* Коментарии */
+	.comment-text {
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+	/*Большое лого*/
+	.wrapper-logo img {
+		width: 250px;
+		height: 100px;
+	}
+	/*Блок с информацией*/
+	.wrapper-info span{
+		font-size: 10px;
+		line-height: 15px
+	}
+	.wrapper-info p {
+		padding-top: 10px;
+		font-size: 5px;
+		line-height: 10px
+
+	}
+	.advantages img {
+		width: 50px;
+		height: 50px;
+	}
+	/* Футер */
+	#footer {
+		background: #fff;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	footer .container {
+		justify-content: space-around;
+	}
+	.socials {
+		margin-left: 40px;
+	}
+	.logo-footer img {
+		width: 60px;
+		height: 30px;
+	}
+	.socials {
+		margin-right: 0px;
+	}
+	.tw,
+	.fb,
+	.inst {
+		width: 30px;
+		height: 30px;
+		margin-right: 20px;
+	}
+	.socials a img {
+		width: 30px;
+		height: 30px;
+	}
+	.footer-text p {
+		font-size: 8px;
 	}
 }
 
